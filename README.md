@@ -11,3 +11,5 @@ The dataset used for this project is available at [Kaggle](https://www.kaggle.co
 Here is the latent space graph of trained VAE model:
 ![image](Characters_latent_space.png)
 As we can see, there are some letters that are missing (for example 'm'), and many others are hard to recognize.  
+This could be solved by increasing the number of latent vectors, but then it would not be so easy to plot the results.  
+For the purpose of this project the two latent vector model will suffice.. 
